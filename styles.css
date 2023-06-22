@@ -9,8 +9,14 @@ body {
 
 .diceRow {
     text-align: center;
-    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 4rem;
+}
+
+.playerRow {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.842);
 }
 
 
@@ -19,11 +25,16 @@ body {
     text-align: center;
 }
 
-.diceImg{
-  margin-right: 2rem;
+.diceImg {
+    margin-right: 2rem;
 }
 
-
+#winnerDeclaration {
+    text-align: center;
+    color: rgb(255, 18, 18);
+    font-size: 2rem;
+    height: 2rem;
+}
 
 
 

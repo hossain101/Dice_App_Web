@@ -10,12 +10,36 @@
     <!-- Heading Section -->
     <h1 id="bodyH1">ROLL YOUR MONEY AWAY!</h1>
 
+    <!-- Winner Declaration -->
+    <h1 id="winnerDeclaration"></h1>
+
     <!-- Dice Image Section -->
-    <div class="diceRow">
-      <img id="diceImg1" class="diceImg" src="images/dice1.png" alt="img not found" />
-    
-      <img id="diceImg2" class="diceImg" src="images/dice2.png" alt="img not found" />
-    </div>
+
+    <table class="diceRow">
+      <thead class="playerRow">
+        <td><h1>Player 1</h1></td>
+        <td><h1>Player 2</h1></td>
+      </thead>
+
+      <tr>
+        <td>
+          <img
+            id="diceImg1"
+            class="diceImg"
+            src="images/dice1.png"
+            alt="img not found"
+          />
+        </td>
+        <td>
+          <img
+            id="diceImg2"
+            class="diceImg"
+            src="images/dice2.png"
+            alt="img not found"
+          />
+        </td>
+      </tr>
+    </table>
 
     <!-- Button Section -->
 
@@ -25,6 +49,6 @@
       </button>
     </div>
 
-    <script src="index.js" ></script>
+    <script src="index.js"></script>
   </body>
 </html>
